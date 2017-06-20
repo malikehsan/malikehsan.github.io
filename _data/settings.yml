@@ -1,0 +1,105 @@
+#-------------------------------
+# General Site Settings
+
+title: MALIK EHSAN
+description: WELCOME TO MY WEBSITE
+email: malikehsan016@gmail.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: About me, url: '#about-me'}
+- {name: Projects, url: '#work'}
+- {name: Resume, url: 'https://drive.google.com/file/d/0B6L_CrTucJhFWXhfX2hiSWlTTDg/view?usp=sharing'}
+- {name: Activities, url: '#acti'}
+- {name: Extracurricular, url: '#clients'}
+- {name: Letters of Appreciation, url: '#letters'}
+- {name: Contact, url: '#contact'}
+
+
+
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Malik Ehsan, Carleton University, Computer Science, web developer, software engineering'
+  rel-author: 'Malik Ehsan'
+  rel-publisher: 'Malik Ehsan'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: COMP3004 Software Engineering Project, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Comp3000 HAcK THE OS , folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: comp3008 HUD system prototype, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: comp4004 class registration system, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: android App, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: myBlog, folder: 'proj-6', file: 'work/proj-6.html'}
+
+
+
+
+
+#-------------------------------
+# Clients Section
+
+clients:
+- {
+  name: 'Canadian Cancer Society',
+  title: 'Creative Director (2014-2015)',
+  quote: "Our team raised over $5000 for the Canadian Cancer Society, relay for life. 
+My role in the team was to provide digital 
+marketing support, I made the campaign
+website, social media banners and 
+other digital material to get the word out."
+,
+  logo: 'logo1.png'}
+- {avatar: 'face-atariboy.jpg',
+  name: 'Paul Menton Centre (Carleton University)',
+  title: 'Volunteer Notetaker 2015-2017',
+  quote: "As the designated note taker for the students with disabilities, I attended all the assigned classes, took detailed and legible notes of each lecture, typed up all the lecture notes and submitted them to the PMC within 48 hours after each class. ",
+  logo: 'logo2.png'}
+- {avatar: 'face-jackiesaik.jpg',
+  name: 'Humans of Carleton',
+  title: 'Digital Media Executive 2015-2016',
+  quote: "As a digital media executive I was responsible for creating digital content for the club. I also managed the club's facebook page that has over 3000 subscribers/likes. ",  
+  logo: 'logo3.png'}
+- {avatar: 'face-teleject.jpg',
+  name: 'Various Clubs at Carleton',
+  title: 'Web Developer / Graphic Designer',
+  quote: "Designed web pages, posters and other marketing material for various club events at Carleton. I designed creative and striking posters, online content and social media banners using range of abode design tools.",  
+  logo: 'logo4.png'}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+
+- {icon: 'github', link: 'http://github.com/malikehsan'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/malikehsan'}
+- {icon: 'facebook', link: 'https://www.facebook.com/profile.php?id=100008184973211'}
+
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
