@@ -9,12 +9,12 @@ email: contact@malikehsan.me
 
 menu:
 - {name: Welcome, url: '#about-me'}
+- {name: Resume, url: ''}
 - {name: Projects, url: '#work'}
-- {name: Resume, url: 'https://drive.google.com/file/d/0B6L_CrTucJhFWXhfX2hiSWlTTDg/view?usp=sharing'}
-- {name: Activities, url: '#acti'}
 - {name: Extracurricular, url: '#clients'}
+- {name: Sports, url: '#acti'}
 - {name: Letters of Appreciation, url: '#letters'}
-- {name: Contact, url: '#contact'}
+- {name: Contact me, url: '#contact'}
 
 
 
