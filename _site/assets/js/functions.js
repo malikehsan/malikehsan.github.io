@@ -46,9 +46,12 @@ function workBelt() {
 function  workLoad() {
 
     $.ajaxSetup({ cache: true });
+   
 
   $('.thumb-container label').click(function() {
     var $this = $(this),
+	$this.removeChild(this);
+
         newTitle = $this.find('strong').text(),
         spinner = '<div class="loader">Loading...</div>',
         url = $this.find('.thumb-unit').data('url');
