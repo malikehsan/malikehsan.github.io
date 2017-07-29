@@ -37,7 +37,7 @@ function workBelt() {
   });
 
   $('.work-return').click(function() {
-    $('.work-belt').removeClass("slided");
+    $('.work-belt').removeClass("slided");	  
     $('.work-container').hide(800);
   });
 
@@ -56,6 +56,7 @@ function  workLoad() {
         url = $this.find('.thumb-unit').data('url');
 
     $('.project-load').html(spinner).load(url);
+     $('.project-load').children().unwrap();	  
    $('.project-title').text(newTitle);
   });
 
