@@ -9,7 +9,7 @@ email: contact@malikehsan.me
 
 menu:
 - {name: Welcome, url: '#about-me'}
-- {name: Resume, url: ''}
+- {name: Resume, url: '#about-me'}
 - {name: Projects, url: '#work'}
 - {name: Extracurricular, url: '#clients'}
 - {name: Sports, url: '#acti'}
