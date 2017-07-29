@@ -54,9 +54,9 @@ function  workLoad() {
 
         spinner = '',
         url = $this.find('.thumb-unit').data('url');
-
+	   $('.project-load').children('img').unwrap();
     $('.project-load').html(spinner).load(url);
-     $('.project-load').children().unwrap();	  
+     $('.project-load').children('h1').unwrap();	  
    $('.project-title').text(newTitle);
   });
 
