@@ -5,8 +5,8 @@
 <p class="test">
  For the “human computer interaction” class we were given the task to design a HUD system. We developed the prototype in C++ on QT framework. 
 <br/> <br/>
- <a href= "https://github.com/malikehsan/hud/blob/master/Report.pdf"><strong> VIEW REPORT ON GITHUB </strong> </a> |  
-<a href= "https://github.com/malikehsan/hud/tree/master/HUD%20(COMP%203008)"><strong> VIEW SOURCE ON GITHUB </strong> </a> 
+ <a1 href= "https://github.com/malikehsan/hud/blob/master/Report.pdf"><strong> VIEW REPORT ON GITHUB </strong> </a1> |  
+<a1 href= "https://github.com/malikehsan/hud/tree/master/HUD%20(COMP%203008)"><strong> VIEW SOURCE ON GITHUB </strong> </a1> 
 </p>
 
 
