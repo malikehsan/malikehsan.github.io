@@ -50,7 +50,6 @@ function  workLoad() {
 
   $('.thumb-container label').click(function() {
     var $this = $(this),
-        newTitle = $this.find('strong').text(),
         spinner = '',
         url = $this.find('.thumb-unit').data('url');
 
