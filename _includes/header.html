@@ -1,4 +1,16 @@
 <header id="header">
+<script>
+	$(function() {
+		anchors.options.visible = 'never'; 
+	});
+</script>
+  
+  <nav>
+    {% for item in site.data.settings.menu %}
+      <a href="{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+
 
 
 </header>
